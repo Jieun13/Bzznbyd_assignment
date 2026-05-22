@@ -48,12 +48,14 @@ echo "OPENWEATHER_API_KEY=여기에_API_키_입력" > .env.local
 
 ### 5. 실행
 
+- 개발 서버 → http://localhost:3000
 ```bash
-npm run dev      # 개발 서버 → http://localhost:3000
+npm run dev
 ```
 
+- 프로덕션
 ```bash
-npm run build && npm start   # 프로덕션
+npm run build && npm start   
 ```
 
 ---
