@@ -1,0 +1,23 @@
+.page {
+  padding: 43px 0 60px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-family: var(--font);
+  font-size: var(--font-5xl);
+  font-weight: var(--weight-black);
+  color: var(--color-darkgray);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.1;
+  margin: 0;
+  text-align: center;
+  white-space: nowrap;
+}

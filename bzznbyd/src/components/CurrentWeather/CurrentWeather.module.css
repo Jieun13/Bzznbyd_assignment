@@ -1,0 +1,102 @@
+.card {
+  background-color: var(--color-white);
+  border: 1px solid var(--color-lightgray);
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 30px;
+  height: 140px;
+  margin-bottom: 20px;
+}
+
+.left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.iconCircle {
+  width: 80px;
+  height: 80px;
+  border-radius: 60%;
+  background-color: var(--color-pink1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+
+.iconImg {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.datetime {
+  font-family: var(--font);
+  font-size: var(--font-2xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-darkgray2);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.1;
+}
+
+.cityRow {
+  display: flex;
+  align-items: baseline;
+  gap: 1px;
+  flex-wrap: wrap;
+}
+
+.cityName {
+  font-family: var(--font);
+  font-size: var(--font-4xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-darkgray);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.1;
+}
+
+.population {
+  font-family: var(--font);
+  font-size: var(--font-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--color-gray);
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.1;
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 10px;
+}
+
+.temperature {
+  font-family: var(--font);
+  font-size: var(--font-6xl);
+  font-weight: var(--weight-bold);
+  color: var(--color-darkgray);
+  letter-spacing: var(--letter-spacing);
+  white-space: nowrap;
+  line-height: 1.1;
+}
+
+.details {
+  font-family: var(--font);
+  font-size: var(--font-sm);
+  font-weight: var(--weight-semibold);
+  color: var(--color-gray);
+  letter-spacing: var(--letter-spacing);
+  white-space: nowrap;
+  line-height: 1.4;
+}

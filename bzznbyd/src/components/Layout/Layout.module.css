@@ -1,0 +1,31 @@
+.page {
+  min-height: 100vh;
+  background-color: var(--color-palepink);
+  background-image: url('/bg.png');
+  background-size: cover;
+  background-position: center;
+}
+
+/* 1280px 이상: 가운데 정렬 */
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+/* 800px ~ 1279px: 100% width */
+@media (max-width: 1279px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+/* 800px 미만: 고정 크기 + 가로 스크롤 */
+@media (max-width: 799px) {
+  .page {
+    overflow-x: auto;
+  }
+  .container {
+    min-width: 800px;
+  }
+}

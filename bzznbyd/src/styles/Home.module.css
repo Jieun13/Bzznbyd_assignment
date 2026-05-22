@@ -1,0 +1,60 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  min-height: 863px;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  text-align: center;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.titleBlack {
+  font-family: var(--font);
+  font-size: var(--font-title);
+  font-weight: var(--weight-black);
+  color: var(--color-darkgray);
+  letter-spacing: var(--letter-spacing);
+}
+
+.titlePink {
+  font-family: var(--font);
+  font-size: var(--font-title);
+  font-weight: var(--weight-black);
+  color: var(--color-red);
+  letter-spacing: var(--letter-spacing);
+}
+
+.subtitle {
+  font-family: var(--font);
+  font-size: var(--font-m);
+  font-weight: var(--weight-regular);
+  color: var(--color-gray);
+  margin: 0;
+  max-width: 486px;
+  line-height: 1.5;
+}
+
+.btnGroup {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.globeWrap {
+  margin-top: 40px;
+}

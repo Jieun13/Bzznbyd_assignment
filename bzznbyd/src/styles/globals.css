@@ -1,0 +1,64 @@
+/* 모든 색상·폰트는 여기서 관리.*/
+:root {
+  /* Colors */
+  --color-white: #ffffff;
+  --color-darkgray: #3d3d3d;
+  --color-red: #ff0045;
+  --color-lightgray: #dfdfdf;
+  --color-gray: #8b8b8b;
+  --color-black: #000000;
+  --color-pink1: #ffd2cc;
+  --color-darkgray2: #555555;
+  --color-palepink: #faf7f5;
+  --color-magenta: #b70055;
+  --color-pink2: #ffaba1;
+
+  /* Typography */
+  --font: 'Pretendard', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  --letter-spacing: -0.6px;
+
+  /* Font weights */
+  --weight-regular: 400;
+  --weight-semibold: 600;
+  --weight-bold: 700;
+  --weight-black: 900;
+
+  /* Font sizes */
+  --font-sm: 14px;
+  --font-m: 16px;
+  --font-l: 18px;
+  --font-xl: 20px;
+  --font-2xl: 24px;
+  --font-3xl: 30px;
+  --font-4xl: 36px;
+  --font-5xl: 40px;
+  --font-6xl: 50px;
+  --font-title: 82px;
+
+  /* Shape */
+  --radius: 6px;
+}
+
+/* ─────────────────────────────
+   Reset / Base
+───────────────────────────── */
+html {
+  scrollbar-gutter: stable;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family: var(--font);
+  background-color: var(--color-palepink);
+  color: var(--color-darkgray);
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
