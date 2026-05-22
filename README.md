@@ -1,4 +1,4 @@
-# Bzznbyd — Weather App
+# 버즈앤비 Bzznbyd — Weather App 구현과제
 
 Seoul · Tokyo · Paris · London 4개 도시의 현재 날씨와 5일 예보를 보여주는 웹 앱입니다.
 
