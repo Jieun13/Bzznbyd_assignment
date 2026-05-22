@@ -65,11 +65,12 @@ npm run build && npm start
 ```
 Bzznbyd_assignment/
 ├── README.md
+├── 버즈앤비_과제구현과정.pdf              # 기술을 리서치하고 구현하기까지의 과정을 담은 자료
 ├── docs/
 │   ├── API_설계.md
 │   ├── 아키텍처.md
 │   └── 요구사항.md
-└── bzznbyd/                     # Next.js 앱
+└── bzznbyd/                         # Next.js 앱
     ├── src/
     │   ├── pages/
     │   │   ├── index.js             # 홈 — 도시 선택 화면
